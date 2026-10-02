@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "lhm",
+  "versions": [
+    {
+      "commit": "40f0d6076d88e997ddad1514c1d055d803219ff8",
+      "tag": "main",
+      "parsed_at": "2026-10-02T10:45:55.473462+00:00"
+    }
+  ]
+}

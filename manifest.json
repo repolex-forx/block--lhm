@@ -63,6 +63,103 @@
       ],
       "ast": [
         "aggregate/ast/40f0d6076d88e997ddad1514c1d055d803219ff8/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/40f0d6076d88e997ddad1514c1d055d803219ff8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5.57",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "48c3b1139785a29f24cf18989f551622123275c0",
+          "githubTag": "v4.5.57",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "env_logger",
+          "ecosystem": "CARGO",
+          "version": "0.11.9",
+          "githubOrg": "rust-cli",
+          "githubRepo": "env_logger",
+          "githubCommit": "2f06b4c7cf359b348cf92f95f83176897cedc838",
+          "githubTag": "v0.11.9",
+          "githubUrl": "https://github.com/rust-cli/env_logger",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.186",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "42620ffc4109dc32e02f1cae9e63a3f4311b4b71",
+          "githubTag": "0.2.186",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "log",
+          "ecosystem": "CARGO",
+          "version": "0.4.29",
+          "githubOrg": "rust-lang",
+          "githubRepo": "log",
+          "githubCommit": "b1e2df7bce7a1b685aa9bfd1db0a5cac1f0fc27d",
+          "githubTag": "0.4.29",
+          "githubUrl": "https://github.com/rust-lang/log",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.228",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "a866b336f14aa57a07f0d0be9f8762746e64ecb4",
+          "githubTag": "v1.0.228",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_yaml",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "dtolnay",
+          "githubRepo": "serde-yaml",
+          "githubUrl": "https://github.com/dtolnay/serde-yaml",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3.25.0",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "which",
+          "ecosystem": "CARGO",
+          "version": "8.0.2",
+          "githubOrg": "harryfei",
+          "githubRepo": "which-rs",
+          "githubCommit": "5bb3e82a82a6ef8f56a3a455125680fd6579c7ca",
+          "githubTag": "8.0.2",
+          "githubUrl": "https://github.com/harryfei/which-rs.git",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_yaml_ng",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "acatton",
+          "githubRepo": "serde-yaml-ng",
+          "githubUrl": "https://github.com/acatton/serde-yaml-ng",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_yaml_ng-0.10.0/src/value/from.rs"
+        }
       ]
     }
   ],
